@@ -49,6 +49,13 @@ For each market:
 - **Lines**: One line per segment (Small, Medium, Large)
 - **Title**: `"Segment-Wise Daily Net Flow — Market {market_id}"`
 - **Features**: Legend, grid, zero line reference
+- **Log Scale**: Automatically applied when all daily net flow values are positive (helps visualize user-level differences when Large segment dominates)
+
+**Log Scale Logic:**
+- Log scale is automatically applied when all daily net flow values across all segments are positive (> 0)
+- This helps visualize patterns when Large segment activity is orders of magnitude larger than Small/Medium segments
+- When negative values exist, linear scale is used with a zero reference line
+- Log scale makes it easier to see patterns in all segments simultaneously when there are large scale differences
 
 ### 5. Output Structure
 
@@ -69,6 +76,8 @@ Each CSV contains columns: `date`, `segment`, `daily_net`, `daily_buy`, `daily_s
 **Trading Period**: October 30 - December 2, 2024 (34 days)  
 **Total Trades**: 1,044 trades across all segments
 
+![Fischer Nebraska Market](user_plots/segment_net_flow/will-fischer-win-nebraska-senate-election-by-7-points.png)
+
 **Key Observations:**
 - All three segments (Small, Medium, Large) actively traded
 - Small segment: Consistent small positive net flow ($1,904.58 total)
@@ -80,12 +89,14 @@ Each CSV contains columns: `date`, `segment`, `daily_net`, `daily_buy`, `daily_s
 - Mid-period (Nov 6-15): Large segment enters with significant trades
 - Late period (Nov 16-Dec 2): All segments show reduced but consistent activity
 
-**Insight**: This market shows balanced participation across all segments, with Medium users being most active throughout the trading period.
+**Insight**: This market shows balanced participation across all segments, with Medium users being most active throughout the trading period. The plot reveals how different segments enter and exit the market at different times, with Medium segment providing consistent liquidity.
 
 ### Example 2: Arizona Senate Election - Active Trading
 **Market**: `will-gallego-win-arizona-senate-election-by-1-2`  
 **Trading Period**: November 8-26, 2024 (19 days)  
 **Total Trades**: 1,465 trades
+
+![Arizona Senate Market](user_plots/segment_net_flow/will-gallego-win-arizona-senate-election-by-1-2.png)
 
 **Key Observations:**
 - Large segment dominates with significant daily net flows
@@ -99,12 +110,14 @@ Each CSV contains columns: `date`, `segment`, `daily_net`, `daily_buy`, `daily_s
 - **Nov 13**: Large segment switches to selling (negative $10K net flow)
 - **Nov 14-26**: Declining activity with occasional spikes
 
-**Insight**: Large traders drive major price movements, with a clear pattern of accumulation followed by profit-taking. The Nov 13 sell-off by Large segment suggests position adjustment or profit-taking behavior.
+**Insight**: Large traders drive major price movements, with a clear pattern of accumulation followed by profit-taking. The Nov 13 sell-off by Large segment suggests position adjustment or profit-taking behavior. The plot clearly shows the dominance of Large segment activity and how it influences market dynamics.
 
 ### Example 3: High-Volume Market - Senate Majority Leader
 **Market**: `will-john-thune-be-the-next-seante-majority-leader`  
 **Trading Period**: December 21, 2024 - January 3, 2025 (14 days)  
 **Total Trades**: 887,000+ trades
+
+![John Thune Market](user_plots/segment_net_flow/will-john-thune-be-the-next-seante-majority-leader.png)
 
 **Key Observations:**
 - Extremely high-volume market with massive daily flows
@@ -118,12 +131,14 @@ Each CSV contains columns: `date`, `segment`, `daily_net`, `daily_buy`, `daily_s
 - **Dec 25-26**: Large segment selling again, Medium segment strong buying
 - **Jan 2-3**: Activity tapers but Medium segment remains active
 
-**Insight**: This market shows extreme volatility driven by Large segment traders. The dramatic swings suggest sophisticated trading strategies or position adjustments. Medium segment provides consistent liquidity throughout.
+**Insight**: This market shows extreme volatility driven by Large segment traders. The dramatic swings suggest sophisticated trading strategies or position adjustments. Medium segment provides consistent liquidity throughout. The plot reveals the massive scale differences between segments - Large segment activity dwarfs others, making this an excellent example of why log scale helps visualize user-level patterns when available.
 
 ### Example 4: Balanced Multi-Segment Market
 **Market**: `will-a-republican-win-nebraska-special-senate-election`  
 **Trading Period**: 34 days  
 **Total Trades**: 130 trades
+
+![Nebraska Special Election Market](user_plots/segment_net_flow/will-a-republican-win-nebraska-special-senate-election.png)
 
 **Key Observations:**
 - All three segments participate
@@ -136,7 +151,46 @@ Each CSV contains columns: `date`, `segment`, `daily_net`, `daily_buy`, `daily_s
 - Medium segment shows consistent buying behavior
 - Lower overall volume but steady activity
 
-**Insight**: This market shows more democratic participation with Medium segment users being the primary drivers, suggesting broader market interest rather than whale-driven activity.
+**Insight**: This market shows more democratic participation with Medium segment users being the primary drivers, suggesting broader market interest rather than whale-driven activity. The plot shows how all segments contribute more evenly compared to high-volume markets.
+
+### Example 5: High-Volume Market with Extreme Swings
+**Market**: `will-john-cornyn-be-the-next-seante-majority-leader`  
+**Trading Period**: 23 days  
+**Total Trades**: 1,000,000+ trades
+
+![John Cornyn Market](user_plots/segment_net_flow/will-john-cornyn-be-the-next-seante-majority-leader.png)
+
+**Key Observations:**
+- Extremely high-volume market with massive scale differences
+- Large segment shows extreme daily flows (millions of dollars)
+- Medium segment provides consistent moderate activity
+- Small segment minimal but present
+
+**Pattern Analysis:**
+- Large segment dominates with orders of magnitude larger flows
+- Shows clear accumulation and distribution patterns
+- Medium segment provides steady liquidity throughout
+
+**Insight**: This market demonstrates why log scale visualization is valuable - when Large segment activity is orders of magnitude larger, log scale helps visualize all segments' patterns simultaneously. The plot reveals the underlying structure of market participation across segments.
+
+### Example 6: Log Scale Market - All Positive Flows
+**Market**: `will-the-democrats-win-the-ohio-senate-race-in-2026`  
+**Trading Period**: November 8-19, 2025 (12 days)  
+**Total Trades**: 15 trades
+
+![Ohio Senate Market - Log Scale](user_plots/segment_net_flow/will-the-democrats-win-the-ohio-senate-race-in-2026.png)
+
+**Key Observations:**
+- All segments show only positive daily net flows (all buying, no selling)
+- Log scale automatically applied to better visualize segment differences
+- Shows how different segments participate at different scales
+
+**Pattern Analysis:**
+- All segments are net buyers throughout the trading period
+- Large differences in scale between segments (Small: $10-20, Medium: $138-458, Large: $21)
+- Log scale makes it possible to see all segment patterns clearly
+
+**Insight**: This market demonstrates the value of log scale - when all segments are net buyers but at vastly different scales, log scale allows us to see the patterns in Small and Medium segments that would be invisible on a linear scale dominated by Large segment activity. This helps understand user-level behavior across all segments.
 
 ## Key Insights Across Markets
 

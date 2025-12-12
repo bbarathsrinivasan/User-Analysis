@@ -172,6 +172,12 @@ def create_market_plot(aggregated_df, market_id):
         'Large': '#F18F01'     # Orange
     }
     
+    # Check if we should use log scale (only if all values are positive)
+    use_log_scale = True
+    min_net_flow = aggregated_df['daily_net'].min()
+    if min_net_flow <= 0:
+        use_log_scale = False
+    
     # Plot each segment
     for segment in ['Small', 'Medium', 'Large']:
         segment_data = aggregated_df[aggregated_df['segment'] == segment].copy()
@@ -197,15 +203,21 @@ def create_market_plot(aggregated_df, market_id):
     # Formatting
     plt.title(f'Segment-Wise Daily Net Flow — Market {market_id}', fontsize=16, fontweight='bold', pad=20)
     plt.xlabel('Date', fontsize=12)
-    plt.ylabel('Daily Net Flow ($)', fontsize=12)
+    
+    # Apply log scale if appropriate
+    if use_log_scale:
+        plt.yscale('log')
+        plt.ylabel('Daily Net Flow ($) - Log Scale', fontsize=12)
+    else:
+        plt.ylabel('Daily Net Flow ($)', fontsize=12)
+        # Add zero line
+        plt.axhline(y=0, color='black', linestyle='-', linewidth=0.5, alpha=0.5)
+    
     plt.legend(loc='best', fontsize=11)
     plt.grid(True, alpha=0.3, linestyle='--')
     
     # Format x-axis dates
     plt.gcf().autofmt_xdate()
-    
-    # Add zero line
-    plt.axhline(y=0, color='black', linestyle='-', linewidth=0.5, alpha=0.5)
     
     plt.tight_layout()
     
