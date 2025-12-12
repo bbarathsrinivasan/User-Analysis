@@ -1,0 +1,75 @@
+Column Descriptions for segment_statistics_cleaned.csv
+============================================================
+
+segment:
+  User segment category: Small (0-50th percentile), Medium (50-90th percentile), or Large (90-100th percentile)
+
+num_users:
+  Number of users in this segment
+
+pct_of_total:
+  Percentage of total users represented by this segment
+
+total_buy_avg:
+  Average total buy amount per user (sum of shares × price for all BUY trades)
+
+total_buy_median:
+  Median total buy amount per user (middle value when sorted)
+
+total_buy_max:
+  Maximum total buy amount among users in this segment
+
+total_buy_sum:
+  Total buy amount across all users in this segment
+
+total_sell_avg:
+  Average total sell amount per user (sum of shares × price for all SELL trades)
+
+total_sell_max:
+  Maximum total sell amount among users in this segment
+
+total_sell_sum:
+  Total sell amount across all users in this segment
+
+net_amount_avg:
+  Average net amount per user (total_buy - total_sell). Positive = net buyer, Negative = net seller
+
+net_amount_median:
+  Median net amount per user (middle value when sorted)
+
+net_amount_min:
+  Minimum net amount among users in this segment
+
+net_amount_max:
+  Maximum net amount among users in this segment
+
+net_amount_sum:
+  Total net amount across all users in this segment
+
+num_trades_avg:
+  Average number of trades per user in this segment
+
+num_trades_median:
+  Median number of trades per user (middle value when sorted)
+
+num_trades_min:
+  Minimum number of trades among users in this segment
+
+num_trades_max:
+  Maximum number of trades among users in this segment
+
+num_trades_sum:
+  Total number of trades across all users in this segment
+
+num_markets_avg:
+  Average number of different markets each user traded in
+
+num_markets_max:
+  Maximum number of markets any user in this segment traded in
+
+total_volume_avg:
+  Average total trading volume per user (total_buy + total_sell)
+
+total_volume_sum:
+  Total trading volume across all users in this segment
+
