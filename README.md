@@ -118,9 +118,9 @@ arizona-senate-election-margin-of-victory,will-kari-lake-win-arizona-senate-elec
 - This user traded in 2 different markets within the same event
 - First trade: 20.0 YES tokens in market "will-kari-lake-win-arizona-senate-election-by-2-or-more" on day -4 (cumulative: 20.0)
 - Second trade: 20.0 YES tokens in market "will-kari-lake-win-arizona-senate-election-by-1-2" on day 0 (cumulative: 40.0)
-- The cumulative_position is a **global running total** across all markets, calculated chronologically by day_offset
-- Data is sorted by day_offset first, then by market_id, so all markets' trades for the same day are grouped together
-- The event_id and market_id columns allow you to track which market each trade came from
+- The cumulative_position is a **global running total** across all markets and all events, calculated chronologically by day_offset
+- Data is sorted by day_offset first, then by market_id (not event_id), so all markets from all events with the same day_offset are grouped together
+- The event_id and market_id columns allow you to track which event and market each trade came from
 
 **Example: All Markets Output (Single Market)**
 
@@ -170,7 +170,7 @@ All output files contain the following columns:
 
 4. **Vectorized Operations**: Uses efficient pandas groupby and aggregation operations.
 
-5. **Global Cumulative Position**: In all-markets output, cumulative_position is a global running total across all markets, calculated chronologically by sorting first by day_offset, then by event_id and market_id. This ensures all markets' trades for the same day are grouped together, and the cumulative position reflects date-based progression across markets.
+5. **Global Cumulative Position**: In all-markets output, cumulative_position is a global running total across all markets and all events, calculated chronologically by sorting first by day_offset, then by market_id (not event_id). This ensures all markets from all events with the same day_offset are grouped together, and the cumulative position reflects true date-based progression across all markets and events.
 
 ## Notes
 

@@ -284,23 +284,25 @@ def aggregate_all_markets_trades(all_markets_df):
 
 def compute_global_cumulative_position(df):
     """
-    Compute global cumulative_position across all markets for each user/token_type.
-    Sorted by day_offset first (chronological), then by event_id and market_id.
+    Compute global cumulative_position across all markets and all events for each user/token_type.
+    Sorted by day_offset first (chronological), then by market_id (not event_id).
+    This ensures all markets from all events with the same day_offset are grouped together.
     
     Args:
         df: DataFrame with columns: event_id, market_id, market_slug, user_id,
             token_type, day_offset, daily_buy, daily_sell, net_tokens
     
     Returns:
-        DataFrame with cumulative_position column added (global across all markets)
+        DataFrame with cumulative_position column added (global across all markets and events)
     """
     result_dfs = []
     
     # Group by user_id and token_type
     for (user_id, token_type), group_df in df.groupby(['user_id', 'token_type']):
-        # Sort by day_offset first (chronological), then event_id, market_id
-        # This ensures cumulative position is based on date progression across markets
-        group_df = group_df.sort_values(['day_offset', 'event_id', 'market_id']).copy()
+        # Sort by day_offset first (chronological), then market_id (NOT event_id)
+        # This ensures all markets from all events with the same day_offset are grouped together
+        # Cumulative position is truly global across all events
+        group_df = group_df.sort_values(['day_offset', 'market_id']).copy()
         
         # Compute cumulative_position as running sum of net_tokens
         group_df['cumulative_position'] = group_df['net_tokens'].cumsum()
@@ -339,9 +341,9 @@ def write_all_markets_user_output(df, user_id, token_type, base_path="all_market
     
     output_df = filtered_df[output_columns].copy()
     
-    # Sort by day_offset first (chronological), then event_id, market_id
-    # This ensures all markets' trades for the same day are grouped together
-    output_df = output_df.sort_values(['day_offset', 'event_id', 'market_id'])
+    # Sort by day_offset first (chronological), then market_id (NOT event_id)
+    # This ensures all markets from all events with the same day_offset are grouped together
+    output_df = output_df.sort_values(['day_offset', 'market_id'])
     
     # Determine output filename
     filename = "yes_token.csv" if token_type == "YES" else "no_token.csv"
