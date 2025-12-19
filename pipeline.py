@@ -10,9 +10,12 @@ from utils import (
     aggregate_daily_trades,
     fill_missing_days_and_compute_cumulative,
     write_user_output,
+    write_combined_token_output,
     aggregate_all_markets_trades,
     compute_global_cumulative_position,
-    write_all_markets_user_output
+    write_all_markets_user_output,
+    write_all_markets_combined_token_output,
+    write_date_group_token_output
 )
 
 
@@ -57,11 +60,18 @@ def process_market(event_id, market_slug, base_path="raw"):
         # Get unique user_id and token_type combinations
         user_token_combinations = final_df[['user_id', 'token_type']].drop_duplicates()
         
+        # Get unique user_ids for combined token output
+        unique_users = final_df['user_id'].unique()
+        
         # Write output files for each user and token type
         for _, row in user_token_combinations.iterrows():
             user_id = row['user_id']
             token_type = row['token_type']
             write_user_output(final_df, user_id, event_id, market_id, token_type)
+        
+        # Write combined token files for each user
+        for user_id in unique_users:
+            write_combined_token_output(final_df, user_id, event_id, market_id)
         
         print(f"  Completed: event {event_id}, market {market_slug}")
         
@@ -151,13 +161,26 @@ def main():
             # Get unique user_id and token_type combinations
             user_token_combinations = final_aggregated_df[['user_id', 'token_type']].drop_duplicates()
             
+            # Get unique user_ids for combined token output
+            unique_users = final_aggregated_df['user_id'].unique()
+            
             # Write aggregated output files for each user and token type
             for _, row in user_token_combinations.iterrows():
                 user_id = row['user_id']
                 token_type = row['token_type']
                 write_all_markets_user_output(final_aggregated_df, user_id, token_type)
             
+            # Write combined token files for each user
+            for user_id in unique_users:
+                write_all_markets_combined_token_output(final_aggregated_df, user_id)
+            
+            # Write date_group_token.csv files for each user
+            for user_id in unique_users:
+                write_date_group_token_output(user_id)
+            
             print(f"  Generated aggregated output for {len(user_token_combinations)} user/token combinations")
+            print(f"  Generated combined token files for {len(unique_users)} users")
+            print(f"  Generated date_group_token files for {len(unique_users)} users")
             
         except Exception as e:
             print(f"  Error generating aggregated output: {str(e)}")
