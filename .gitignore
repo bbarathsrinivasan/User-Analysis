@@ -2,3 +2,4 @@ output
 venv
 raw
 all_markets_output
+subset_all_markets_output
