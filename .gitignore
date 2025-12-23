@@ -1,5 +1,9 @@
 output
 venv
-raw
 all_markets_output
+output
+segment_output
+supabase_exports
+raw
+segment
 subset_all_markets_output
