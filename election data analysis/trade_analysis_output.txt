@@ -1,0 +1,396 @@
+[2026-01-12 09:52:30] [INFO] ================================================================================
+[2026-01-12 09:52:30] [INFO] Analyzing Trade Dates for Nevada Event
+[2026-01-12 09:52:30] [INFO] ================================================================================
+[2026-01-12 09:52:30] [INFO] 
+Found 3 market(s) to analyze
+[2026-01-12 09:52:30] [INFO] --------------------------------------------------------------------------------
+[2026-01-12 09:52:30] [INFO] Analyzing: will-a-candidate-from-another-party-win-nevada-us-senate-election
+
+================================================================================
+Market: will-a-candidate-from-another-party-win-nevada-us-senate-election
+================================================================================
+Total Trades: 8,964,900
+First Trade Date: 2024-08-18
+Last Trade Date: 2024-11-09
+Date Range: 84 calendar days
+Unique Trading Days: 72
+
+Day Offset Range: -83 to 0
+Unique Day Offsets: 72
+
+Top 10 Days by Trade Count:
+--------------------------------------------------------------------------------
+  2024-09-14 (day_offset= -56):    1,075,668 trades ( 12.00%)
+  2024-08-26 (day_offset= -75):      896,390 trades ( 10.00%)
+  2024-09-02 (day_offset= -68):      806,751 trades (  9.00%)
+  2024-09-17 (day_offset= -53):      806,751 trades (  9.00%)
+  2024-08-29 (day_offset= -72):      537,834 trades (  6.00%)
+  2024-08-22 (day_offset= -79):      448,195 trades (  5.00%)
+  2024-08-30 (day_offset= -71):      448,195 trades (  5.00%)
+  2024-09-18 (day_offset= -52):      448,195 trades (  5.00%)
+  2024-08-21 (day_offset= -80):      358,556 trades (  4.00%)
+  2024-09-15 (day_offset= -55):      358,556 trades (  4.00%)
+
+All Days with Trades (sorted by date):
+--------------------------------------------------------------------------------
+  2024-08-18 (day_offset= -83):      268,917 trades (  3.00%)
+  2024-08-19 (day_offset= -82):      179,278 trades (  2.00%)
+  2024-08-21 (day_offset= -80):      358,556 trades (  4.00%)
+  2024-08-22 (day_offset= -79):      448,195 trades (  5.00%)
+  2024-08-24 (day_offset= -77):       89,639 trades (  1.00%)
+  2024-08-26 (day_offset= -75):      896,390 trades ( 10.00%)
+  2024-08-27 (day_offset= -74):       89,639 trades (  1.00%)
+  2024-08-29 (day_offset= -72):      537,834 trades (  6.00%)
+  2024-08-30 (day_offset= -71):      448,195 trades (  5.00%)
+  2024-08-31 (day_offset= -70):      179,278 trades (  2.00%)
+  2024-09-01 (day_offset= -69):      179,278 trades (  2.00%)
+  2024-09-02 (day_offset= -68):      806,751 trades (  9.00%)
+  2024-09-03 (day_offset= -67):      179,278 trades (  2.00%)
+  2024-09-05 (day_offset= -65):      268,917 trades (  3.00%)
+  2024-09-06 (day_offset= -64):       89,639 trades (  1.00%)
+  2024-09-07 (day_offset= -63):      268,917 trades (  3.00%)
+  2024-09-10 (day_offset= -60):      268,917 trades (  3.00%)
+  2024-09-11 (day_offset= -59):      179,278 trades (  2.00%)
+  2024-09-13 (day_offset= -57):      179,278 trades (  2.00%)
+  2024-09-14 (day_offset= -56):    1,075,668 trades ( 12.00%)
+  2024-09-15 (day_offset= -55):      358,556 trades (  4.00%)
+  2024-09-16 (day_offset= -54):      358,556 trades (  4.00%)
+  2024-09-17 (day_offset= -53):      806,751 trades (  9.00%)
+  2024-09-18 (day_offset= -52):      448,195 trades (  5.00%)
+  2024-09-19 (day_offset= -51):            5 trades (  0.00%)
+  2024-09-20 (day_offset= -50):            4 trades (  0.00%)
+  2024-09-22 (day_offset= -48):            4 trades (  0.00%)
+  2024-09-23 (day_offset= -47):            3 trades (  0.00%)
+  2024-09-24 (day_offset= -46):            4 trades (  0.00%)
+  2024-09-26 (day_offset= -44):           10 trades (  0.00%)
+  2024-09-27 (day_offset= -43):           19 trades (  0.00%)
+  2024-09-28 (day_offset= -42):            8 trades (  0.00%)
+  2024-09-29 (day_offset= -41):            1 trades (  0.00%)
+  2024-09-30 (day_offset= -40):            7 trades (  0.00%)
+  2024-10-01 (day_offset= -39):           57 trades (  0.00%)
+  2024-10-02 (day_offset= -38):           40 trades (  0.00%)
+  2024-10-03 (day_offset= -37):           54 trades (  0.00%)
+  2024-10-04 (day_offset= -36):           17 trades (  0.00%)
+  2024-10-05 (day_offset= -35):           14 trades (  0.00%)
+  2024-10-06 (day_offset= -34):           22 trades (  0.00%)
+  2024-10-07 (day_offset= -33):           27 trades (  0.00%)
+  2024-10-08 (day_offset= -32):           15 trades (  0.00%)
+  2024-10-09 (day_offset= -31):            2 trades (  0.00%)
+  2024-10-10 (day_offset= -30):           28 trades (  0.00%)
+  2024-10-11 (day_offset= -29):            5 trades (  0.00%)
+  2024-10-12 (day_offset= -28):            1 trades (  0.00%)
+  2024-10-13 (day_offset= -27):            7 trades (  0.00%)
+  2024-10-14 (day_offset= -26):            8 trades (  0.00%)
+  2024-10-15 (day_offset= -25):           39 trades (  0.00%)
+  2024-10-16 (day_offset= -24):            4 trades (  0.00%)
+  2024-10-17 (day_offset= -23):            5 trades (  0.00%)
+  2024-10-19 (day_offset= -21):           16 trades (  0.00%)
+  2024-10-20 (day_offset= -20):            2 trades (  0.00%)
+  2024-10-21 (day_offset= -19):           20 trades (  0.00%)
+  2024-10-22 (day_offset= -18):            2 trades (  0.00%)
+  2024-10-23 (day_offset= -17):            9 trades (  0.00%)
+  2024-10-24 (day_offset= -16):           60 trades (  0.00%)
+  2024-10-25 (day_offset= -15):            6 trades (  0.00%)
+  2024-10-26 (day_offset= -14):            9 trades (  0.00%)
+  2024-10-27 (day_offset= -13):           12 trades (  0.00%)
+  2024-10-28 (day_offset= -12):           11 trades (  0.00%)
+  2024-10-29 (day_offset= -11):            6 trades (  0.00%)
+  2024-10-30 (day_offset= -10):            1 trades (  0.00%)
+  2024-11-01 (day_offset=  -8):            3 trades (  0.00%)
+  2024-11-02 (day_offset=  -7):            7 trades (  0.00%)
+  2024-11-03 (day_offset=  -6):          357 trades (  0.00%)
+  2024-11-04 (day_offset=  -5):           10 trades (  0.00%)
+  2024-11-05 (day_offset=  -4):           13 trades (  0.00%)
+  2024-11-06 (day_offset=  -3):           31 trades (  0.00%)
+  2024-11-07 (day_offset=  -2):           11 trades (  0.00%)
+  2024-11-08 (day_offset=  -1):            1 trades (  0.00%)
+  2024-11-09 (day_offset=   0):            3 trades (  0.00%)
+
+Day Offset Distribution:
+--------------------------------------------------------------------------------
+  day_offset= -83:      268,917 trades (  3.00%)
+  day_offset= -82:      179,278 trades (  2.00%)
+  day_offset= -80:      358,556 trades (  4.00%)
+  day_offset= -79:      448,195 trades (  5.00%)
+  day_offset= -77:       89,639 trades (  1.00%)
+  day_offset= -75:      896,390 trades ( 10.00%)
+  day_offset= -74:       89,639 trades (  1.00%)
+  day_offset= -72:      537,834 trades (  6.00%)
+  day_offset= -71:      448,195 trades (  5.00%)
+  day_offset= -70:      179,278 trades (  2.00%)
+  day_offset= -69:      179,278 trades (  2.00%)
+  day_offset= -68:      806,751 trades (  9.00%)
+  day_offset= -67:      179,278 trades (  2.00%)
+  day_offset= -65:      268,917 trades (  3.00%)
+  day_offset= -64:       89,639 trades (  1.00%)
+  day_offset= -63:      268,917 trades (  3.00%)
+  day_offset= -60:      268,917 trades (  3.00%)
+  day_offset= -59:      179,278 trades (  2.00%)
+  day_offset= -57:      179,278 trades (  2.00%)
+  day_offset= -56:    1,075,668 trades ( 12.00%)
+  day_offset= -55:      358,556 trades (  4.00%)
+  day_offset= -54:      358,556 trades (  4.00%)
+  day_offset= -53:      806,751 trades (  9.00%)
+  day_offset= -52:      448,195 trades (  5.00%)
+  day_offset= -51:            5 trades (  0.00%)
+  day_offset= -50:            4 trades (  0.00%)
+  day_offset= -48:            4 trades (  0.00%)
+  day_offset= -47:            3 trades (  0.00%)
+  day_offset= -46:            4 trades (  0.00%)
+  day_offset= -44:           10 trades (  0.00%)
+  day_offset= -43:           19 trades (  0.00%)
+  day_offset= -42:            8 trades (  0.00%)
+  day_offset= -41:            1 trades (  0.00%)
+  day_offset= -40:            7 trades (  0.00%)
+  day_offset= -39:           57 trades (  0.00%)
+  day_offset= -38:           40 trades (  0.00%)
+  day_offset= -37:           54 trades (  0.00%)
+  day_offset= -36:           17 trades (  0.00%)
+  day_offset= -35:           14 trades (  0.00%)
+  day_offset= -34:           22 trades (  0.00%)
+  day_offset= -33:           27 trades (  0.00%)
+  day_offset= -32:           15 trades (  0.00%)
+  day_offset= -31:            2 trades (  0.00%)
+  day_offset= -30:           28 trades (  0.00%)
+  day_offset= -29:            5 trades (  0.00%)
+  day_offset= -28:            1 trades (  0.00%)
+  day_offset= -27:            7 trades (  0.00%)
+  day_offset= -26:            8 trades (  0.00%)
+  day_offset= -25:           39 trades (  0.00%)
+  day_offset= -24:            4 trades (  0.00%)
+  day_offset= -23:            5 trades (  0.00%)
+  day_offset= -21:           16 trades (  0.00%)
+  day_offset= -20:            2 trades (  0.00%)
+  day_offset= -19:           20 trades (  0.00%)
+  day_offset= -18:            2 trades (  0.00%)
+  day_offset= -17:            9 trades (  0.00%)
+  day_offset= -16:           60 trades (  0.00%)
+  day_offset= -15:            6 trades (  0.00%)
+  day_offset= -14:            9 trades (  0.00%)
+  day_offset= -13:           12 trades (  0.00%)
+  day_offset= -12:           11 trades (  0.00%)
+  day_offset= -11:            6 trades (  0.00%)
+  day_offset= -10:            1 trades (  0.00%)
+  day_offset=  -8:            3 trades (  0.00%)
+  day_offset=  -7:            7 trades (  0.00%)
+  day_offset=  -6:          357 trades (  0.00%)
+  day_offset=  -5:           10 trades (  0.00%)
+  day_offset=  -4:           13 trades (  0.00%)
+  day_offset=  -3:           31 trades (  0.00%)
+  day_offset=  -2:           11 trades (  0.00%)
+  day_offset=  -1:            1 trades (  0.00%)
+  day_offset=   0:            3 trades (  0.00%)
+
+--------------------------------------------------------------------------------
+AGGREGATED OUTPUT ANALYSIS:
+--------------------------------------------------------------------------------
+Total day offsets in output: 81
+Day offsets with valid odds (non-NaN): 54
+Day offsets with zero positions (NaN odds): 27
+Day offsets with trading activity: 54
+
+Day offsets in raw trades: 72
+
+⚠️  WARNING: Only 54 days have valid odds out of 72 trading days!
+This means many days had trades but resulted in zero aggregated positions.
+Possible reasons:
+  - Trades were from users without segment mappings
+  - Trades resulted in zero net positions (buy/sell balanced)
+  - Individual positions calculated to zero
+
+Days with valid odds (will appear in graph):
+  day_offset= -53: odds=0.0000 (agg_yes=0.0, agg_no=89.6)
+  day_offset= -52: odds=0.0000 (agg_yes=0.0, agg_no=89.6)
+  day_offset= -51: odds=0.0000 (agg_yes=0.0, agg_no=89.6)
+  day_offset= -50: odds=0.0000 (agg_yes=0.0, agg_no=89.6)
+  day_offset= -49: odds=0.0000 (agg_yes=0.0, agg_no=89.6)
+  day_offset= -48: odds=0.0000 (agg_yes=0.0, agg_no=89.6)
+  day_offset= -47: odds=0.0000 (agg_yes=0.0, agg_no=89.6)
+  day_offset= -46: odds=0.0000 (agg_yes=0.0, agg_no=89.6)
+  day_offset= -45: odds=0.0000 (agg_yes=0.0, agg_no=89.6)
+  day_offset= -44: odds=0.0000 (agg_yes=0.0, agg_no=89.6)
+  day_offset= -43: odds=0.0000 (agg_yes=0.0, agg_no=505.5)
+  day_offset= -42: odds=0.0000 (agg_yes=0.0, agg_no=505.5)
+  day_offset= -41: odds=0.0000 (agg_yes=0.0, agg_no=505.5)
+  day_offset= -40: odds=0.0000 (agg_yes=0.0, agg_no=505.5)
+  day_offset= -39: odds=0.0000 (agg_yes=0.0, agg_no=505.5)
+  day_offset= -38: odds=0.0000 (agg_yes=0.0, agg_no=505.5)
+  day_offset= -37: odds=0.0000 (agg_yes=0.0, agg_no=505.5)
+  day_offset= -36: odds=0.3309 (agg_yes=250.0, agg_no=505.5)
+  day_offset= -35: odds=0.2589 (agg_yes=250.0, agg_no=715.5)
+  day_offset= -34: odds=0.2589 (agg_yes=250.0, agg_no=715.5)
+  day_offset= -33: odds=0.2425 (agg_yes=250.0, agg_no=781.1)
+  day_offset= -32: odds=0.0000 (agg_yes=0.0, agg_no=781.1)
+  day_offset= -31: odds=0.0000 (agg_yes=0.0, agg_no=781.1)
+  day_offset= -30: odds=0.7497 (agg_yes=2784.8, agg_no=929.7)
+  day_offset= -29: odds=0.6561 (agg_yes=2784.8, agg_no=1459.7)
+  day_offset= -28: odds=0.6561 (agg_yes=2784.8, agg_no=1459.7)
+  day_offset= -27: odds=0.6561 (agg_yes=2784.8, agg_no=1459.7)
+  day_offset= -26: odds=0.6752 (agg_yes=3034.8, agg_no=1459.7)
+  day_offset= -25: odds=0.6759 (agg_yes=3044.8, agg_no=1459.7)
+  day_offset= -24: odds=0.6752 (agg_yes=3034.8, agg_no=1459.7)
+  day_offset= -23: odds=0.6752 (agg_yes=3034.8, agg_no=1459.7)
+  day_offset= -22: odds=0.6752 (agg_yes=3034.8, agg_no=1459.7)
+  day_offset= -21: odds=0.6654 (agg_yes=3034.8, agg_no=1525.9)
+  day_offset= -20: odds=0.6654 (agg_yes=3034.8, agg_no=1525.9)
+  day_offset= -19: odds=0.3740 (agg_yes=3034.8, agg_no=5079.4)
+  day_offset= -18: odds=0.3740 (agg_yes=3034.8, agg_no=5079.4)
+  day_offset= -17: odds=0.2698 (agg_yes=3034.8, agg_no=8214.4)
+  day_offset= -16: odds=0.2601 (agg_yes=3034.8, agg_no=8633.7)
+  day_offset= -15: odds=0.2700 (agg_yes=3284.8, agg_no=8881.7)
+  day_offset= -14: odds=0.2362 (agg_yes=3284.8, agg_no=10622.7)
+  day_offset= -13: odds=0.2160 (agg_yes=3284.8, agg_no=11922.7)
+  day_offset= -12: odds=0.2160 (agg_yes=3284.8, agg_no=11922.7)
+  day_offset= -11: odds=0.2061 (agg_yes=3284.8, agg_no=12656.2)
+  day_offset= -10: odds=0.1995 (agg_yes=3284.8, agg_no=13177.6)
+  day_offset=  -9: odds=0.1995 (agg_yes=3284.8, agg_no=13177.6)
+  day_offset=  -8: odds=0.1781 (agg_yes=3284.8, agg_no=15156.6)
+  day_offset=  -7: odds=0.1767 (agg_yes=3284.8, agg_no=15306.6)
+  day_offset=  -6: odds=0.7248 (agg_yes=40306.8, agg_no=15306.6)
+  day_offset=  -5: odds=0.7139 (agg_yes=40306.8, agg_no=16151.3)
+  day_offset=  -4: odds=0.6960 (agg_yes=40306.8, agg_no=17607.5)
+  day_offset=  -3: odds=0.5103 (agg_yes=40475.6, agg_no=38846.1)
+  day_offset=  -2: odds=0.5515 (agg_yes=47769.8, agg_no=38846.1)
+  day_offset=  -1: odds=0.5567 (agg_yes=48789.8, agg_no=38846.1)
+  day_offset=   0: odds=0.5543 (agg_yes=48789.8, agg_no=39228.1)
+[2026-01-12 09:52:58] [INFO] Analyzing: will-a-democrat-win-michigan-senate-election
+
+================================================================================
+Market: will-a-democrat-win-michigan-senate-election
+================================================================================
+Total Trades: 3,659,800
+First Trade Date: 2024-11-06
+Last Trade Date: 2024-11-09
+Date Range: 4 calendar days
+Unique Trading Days: 4
+
+Day Offset Range: -3 to 0
+Unique Day Offsets: 4
+
+Top 10 Days by Trade Count:
+--------------------------------------------------------------------------------
+  2024-11-06 (day_offset=  -3):    3,658,958 trades ( 99.98%)
+  2024-11-07 (day_offset=  -2):          476 trades (  0.01%)
+  2024-11-08 (day_offset=  -1):          260 trades (  0.01%)
+  2024-11-09 (day_offset=   0):          106 trades (  0.00%)
+
+All Days with Trades (sorted by date):
+--------------------------------------------------------------------------------
+  2024-11-06 (day_offset=  -3):    3,658,958 trades ( 99.98%)
+  2024-11-07 (day_offset=  -2):          476 trades (  0.01%)
+  2024-11-08 (day_offset=  -1):          260 trades (  0.01%)
+  2024-11-09 (day_offset=   0):          106 trades (  0.00%)
+
+Day Offset Distribution:
+--------------------------------------------------------------------------------
+  day_offset=  -3:    3,658,958 trades ( 99.98%)
+  day_offset=  -2:          476 trades (  0.01%)
+  day_offset=  -1:          260 trades (  0.01%)
+  day_offset=   0:          106 trades (  0.00%)
+
+--------------------------------------------------------------------------------
+AGGREGATED OUTPUT ANALYSIS:
+--------------------------------------------------------------------------------
+Total day offsets in output: 4
+Day offsets with valid odds (non-NaN): 4
+Day offsets with zero positions (NaN odds): 0
+Day offsets with trading activity: 4
+
+Day offsets in raw trades: 4
+✓ All trading days have valid odds in the aggregated output
+[2026-01-12 09:53:08] [INFO] Analyzing: will-a-republican-win-nevada-us-senate-election
+
+================================================================================
+Market: will-a-republican-win-nevada-us-senate-election
+================================================================================
+Total Trades: 3,281,100
+First Trade Date: 2024-10-21
+Last Trade Date: 2024-11-09
+Date Range: 20 calendar days
+Unique Trading Days: 20
+
+Day Offset Range: -19 to 0
+Unique Day Offsets: 20
+
+Top 10 Days by Trade Count:
+--------------------------------------------------------------------------------
+  2024-10-21 (day_offset= -19):      984,030 trades ( 29.99%)
+  2024-10-24 (day_offset= -16):      951,264 trades ( 28.99%)
+  2024-10-23 (day_offset= -17):      885,627 trades ( 26.99%)
+  2024-10-22 (day_offset= -18):      459,214 trades ( 14.00%)
+  2024-11-06 (day_offset=  -3):          464 trades (  0.01%)
+  2024-11-07 (day_offset=  -2):          249 trades (  0.01%)
+  2024-11-08 (day_offset=  -1):           98 trades (  0.00%)
+  2024-11-05 (day_offset=  -4):           26 trades (  0.00%)
+  2024-11-09 (day_offset=   0):           25 trades (  0.00%)
+  2024-11-04 (day_offset=  -5):           24 trades (  0.00%)
+
+All Days with Trades (sorted by date):
+--------------------------------------------------------------------------------
+  2024-10-21 (day_offset= -19):      984,030 trades ( 29.99%)
+  2024-10-22 (day_offset= -18):      459,214 trades ( 14.00%)
+  2024-10-23 (day_offset= -17):      885,627 trades ( 26.99%)
+  2024-10-24 (day_offset= -16):      951,264 trades ( 28.99%)
+  2024-10-25 (day_offset= -15):           11 trades (  0.00%)
+  2024-10-26 (day_offset= -14):           12 trades (  0.00%)
+  2024-10-27 (day_offset= -13):            7 trades (  0.00%)
+  2024-10-28 (day_offset= -12):            2 trades (  0.00%)
+  2024-10-29 (day_offset= -11):            9 trades (  0.00%)
+  2024-10-30 (day_offset= -10):            6 trades (  0.00%)
+  2024-10-31 (day_offset=  -9):            5 trades (  0.00%)
+  2024-11-01 (day_offset=  -8):           10 trades (  0.00%)
+  2024-11-02 (day_offset=  -7):            4 trades (  0.00%)
+  2024-11-03 (day_offset=  -6):           13 trades (  0.00%)
+  2024-11-04 (day_offset=  -5):           24 trades (  0.00%)
+  2024-11-05 (day_offset=  -4):           26 trades (  0.00%)
+  2024-11-06 (day_offset=  -3):          464 trades (  0.01%)
+  2024-11-07 (day_offset=  -2):          249 trades (  0.01%)
+  2024-11-08 (day_offset=  -1):           98 trades (  0.00%)
+  2024-11-09 (day_offset=   0):           25 trades (  0.00%)
+
+Day Offset Distribution:
+--------------------------------------------------------------------------------
+  day_offset= -19:      984,030 trades ( 29.99%)
+  day_offset= -18:      459,214 trades ( 14.00%)
+  day_offset= -17:      885,627 trades ( 26.99%)
+  day_offset= -16:      951,264 trades ( 28.99%)
+  day_offset= -15:           11 trades (  0.00%)
+  day_offset= -14:           12 trades (  0.00%)
+  day_offset= -13:            7 trades (  0.00%)
+  day_offset= -12:            2 trades (  0.00%)
+  day_offset= -11:            9 trades (  0.00%)
+  day_offset= -10:            6 trades (  0.00%)
+  day_offset=  -9:            5 trades (  0.00%)
+  day_offset=  -8:           10 trades (  0.00%)
+  day_offset=  -7:            4 trades (  0.00%)
+  day_offset=  -6:           13 trades (  0.00%)
+  day_offset=  -5:           24 trades (  0.00%)
+  day_offset=  -4:           26 trades (  0.00%)
+  day_offset=  -3:          464 trades (  0.01%)
+  day_offset=  -2:          249 trades (  0.01%)
+  day_offset=  -1:           98 trades (  0.00%)
+  day_offset=   0:           25 trades (  0.00%)
+
+--------------------------------------------------------------------------------
+AGGREGATED OUTPUT ANALYSIS:
+--------------------------------------------------------------------------------
+Total day offsets in output: 20
+Day offsets with valid odds (non-NaN): 20
+Day offsets with zero positions (NaN odds): 0
+Day offsets with trading activity: 20
+
+Day offsets in raw trades: 20
+✓ All trading days have valid odds in the aggregated output
+
+================================================================================
+OVERALL SUMMARY
+================================================================================
+Total Markets Analyzed: 3
+Total Trades Across All Markets: 15,905,800
+
+Earliest Trade Date (across all markets): 2024-08-18
+Latest Trade Date (across all markets): 2024-11-09
+Overall Date Range: 84 calendar days
+
+================================================================================
+[2026-01-12 09:53:17] [INFO] Analysis completed

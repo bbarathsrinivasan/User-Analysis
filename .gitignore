@@ -7,3 +7,6 @@ supabase_exports
 raw
 segment
 subset_all_markets_output
+data
+data_segment_output
+data_segment

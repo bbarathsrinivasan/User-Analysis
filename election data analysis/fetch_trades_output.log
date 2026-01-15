@@ -1,0 +1,444 @@
+17:00:09 | INFO | Fetching trades for 1 events via dataCollectionScript.py
+17:00:10 | INFO | nevada-us-senate-election-winner: event loaded: 3 markets
+17:00:10 | INFO | nevada-us-senate-election-winner: [1/3] fetching trades for market will-a-democrat-win-michigan-senate-election
+17:00:12 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 10 batches, 5000 trades so far
+17:00:15 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 20 batches, 10000 trades so far
+17:00:17 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 30 batches, 15000 trades so far
+17:00:20 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 40 batches, 20000 trades so far
+17:00:22 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 50 batches, 25000 trades so far
+17:00:25 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 60 batches, 30000 trades so far
+17:00:27 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 70 batches, 35000 trades so far
+17:00:30 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 80 batches, 40000 trades so far
+17:00:32 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 90 batches, 45000 trades so far
+17:00:34 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 100 batches, 50000 trades so far
+17:00:37 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 110 batches, 55000 trades so far
+17:00:39 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - processed 120 batches, 60000 trades so far
+17:00:46 | INFO | nevada-us-senate-election-winner: market will-a-democrat-win-michigan-senate-election - completed with 126 batches totaling 63000 trades
+17:00:46 | INFO | nevada-us-senate-election-winner: fetched 63000 trades for will-a-democrat-win-michigan-senate-election in 36.05s
+17:00:46 | WARNING | nevada-us-senate-election-winner: DB trades write failed for will-a-democrat-win-michigan-senate-election: [Errno 2] No such file or directory: '/Users/barathsrinivasanbasavaraj/Desktop/Carnegie Mellon University/Research Assistanship/User Analysis/election data analysis/db/writers.py'
+17:00:46 | INFO | nevada-us-senate-election-winner: [2/3] fetching trades for market will-a-republican-win-nevada-us-senate-election
+17:00:50 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 10 batches, 5000 trades so far
+17:00:52 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 20 batches, 10000 trades so far
+17:00:54 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 30 batches, 15000 trades so far
+17:00:57 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 40 batches, 20000 trades so far
+17:00:59 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 50 batches, 25000 trades so far
+17:01:02 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 60 batches, 30000 trades so far
+17:01:04 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 70 batches, 35000 trades so far
+17:01:07 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 80 batches, 40000 trades so far
+17:01:09 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 90 batches, 45000 trades so far
+17:01:11 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 100 batches, 50000 trades so far
+17:01:14 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 110 batches, 55000 trades so far
+17:01:16 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 120 batches, 60000 trades so far
+17:01:18 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 130 batches, 65000 trades so far
+17:01:20 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 140 batches, 70000 trades so far
+17:01:23 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 150 batches, 75000 trades so far
+17:01:25 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 160 batches, 80000 trades so far
+17:01:27 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 170 batches, 85000 trades so far
+17:01:30 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 180 batches, 90000 trades so far
+17:01:32 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 190 batches, 95000 trades so far
+17:01:34 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 200 batches, 100000 trades so far
+17:01:36 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 210 batches, 105000 trades so far
+17:01:39 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 220 batches, 110000 trades so far
+17:01:41 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 230 batches, 115000 trades so far
+17:01:43 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 240 batches, 120000 trades so far
+17:01:45 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 250 batches, 125000 trades so far
+17:01:48 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 260 batches, 130000 trades so far
+17:01:50 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 270 batches, 135000 trades so far
+17:01:52 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 280 batches, 140000 trades so far
+17:01:55 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 290 batches, 145000 trades so far
+17:01:57 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 300 batches, 150000 trades so far
+17:02:00 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 310 batches, 155000 trades so far
+17:02:02 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 320 batches, 160000 trades so far
+17:02:04 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 330 batches, 165000 trades so far
+17:02:07 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 340 batches, 170000 trades so far
+17:02:10 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 350 batches, 175000 trades so far
+17:02:12 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 360 batches, 180000 trades so far
+17:02:14 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 370 batches, 185000 trades so far
+17:02:16 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 380 batches, 190000 trades so far
+17:02:23 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 390 batches, 195000 trades so far
+17:02:25 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 400 batches, 200000 trades so far
+17:02:28 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 410 batches, 205000 trades so far
+17:02:30 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 420 batches, 210000 trades so far
+17:02:32 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 430 batches, 215000 trades so far
+17:02:35 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 440 batches, 220000 trades so far
+17:02:37 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 450 batches, 225000 trades so far
+17:02:39 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 460 batches, 230000 trades so far
+17:02:41 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 470 batches, 235000 trades so far
+17:02:44 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 480 batches, 240000 trades so far
+17:02:47 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 490 batches, 245000 trades so far
+17:02:49 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 500 batches, 250000 trades so far
+17:02:52 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 510 batches, 255000 trades so far
+17:02:54 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 520 batches, 260000 trades so far
+17:02:56 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 530 batches, 265000 trades so far
+17:02:58 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 540 batches, 270000 trades so far
+17:03:01 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 550 batches, 275000 trades so far
+17:03:03 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 560 batches, 280000 trades so far
+17:03:05 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 570 batches, 285000 trades so far
+17:03:08 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 580 batches, 290000 trades so far
+17:03:10 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 590 batches, 295000 trades so far
+17:03:12 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 600 batches, 300000 trades so far
+17:03:16 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 610 batches, 305000 trades so far
+17:03:18 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 620 batches, 310000 trades so far
+17:03:22 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 630 batches, 315000 trades so far
+17:03:24 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 640 batches, 320000 trades so far
+17:03:27 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 650 batches, 325000 trades so far
+17:03:30 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 660 batches, 330000 trades so far
+17:03:33 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 670 batches, 335000 trades so far
+17:03:35 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 680 batches, 340000 trades so far
+17:03:38 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 690 batches, 345000 trades so far
+17:03:41 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 700 batches, 350000 trades so far
+17:03:44 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 710 batches, 355000 trades so far
+17:03:46 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 720 batches, 360000 trades so far
+17:03:49 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 730 batches, 365000 trades so far
+17:03:52 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 740 batches, 370000 trades so far
+17:03:54 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 750 batches, 375000 trades so far
+17:03:57 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 760 batches, 380000 trades so far
+17:03:59 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 770 batches, 385000 trades so far
+17:04:02 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 780 batches, 390000 trades so far
+17:04:04 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 790 batches, 395000 trades so far
+17:04:06 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 800 batches, 400000 trades so far
+17:04:09 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 810 batches, 405000 trades so far
+17:04:11 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 820 batches, 410000 trades so far
+17:04:14 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 830 batches, 415000 trades so far
+17:04:17 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 840 batches, 420000 trades so far
+17:04:19 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 850 batches, 425000 trades so far
+17:04:21 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 860 batches, 430000 trades so far
+17:04:24 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 870 batches, 435000 trades so far
+17:04:26 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 880 batches, 440000 trades so far
+17:04:28 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 890 batches, 445000 trades so far
+17:04:30 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 900 batches, 450000 trades so far
+17:04:32 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 910 batches, 455000 trades so far
+17:04:33 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 920 batches, 460000 trades so far
+17:04:36 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 930 batches, 465000 trades so far
+17:04:38 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 940 batches, 470000 trades so far
+17:04:40 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 950 batches, 475000 trades so far
+17:04:42 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 960 batches, 480000 trades so far
+17:04:44 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 970 batches, 485000 trades so far
+17:04:46 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 980 batches, 490000 trades so far
+17:04:48 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 990 batches, 495000 trades so far
+17:04:50 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1000 batches, 500000 trades so far
+17:04:53 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1010 batches, 505000 trades so far
+17:04:55 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1020 batches, 510000 trades so far
+17:04:57 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1030 batches, 515000 trades so far
+17:04:58 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1040 batches, 520000 trades so far
+17:05:01 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1050 batches, 525000 trades so far
+17:05:03 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1060 batches, 530000 trades so far
+17:05:05 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1070 batches, 535000 trades so far
+17:05:07 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1080 batches, 540000 trades so far
+17:05:09 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1090 batches, 545000 trades so far
+17:05:11 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1100 batches, 550000 trades so far
+17:05:13 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1110 batches, 555000 trades so far
+17:05:16 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1120 batches, 560000 trades so far
+17:05:18 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1130 batches, 565000 trades so far
+17:05:20 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1140 batches, 570000 trades so far
+17:05:24 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1150 batches, 575000 trades so far
+17:05:26 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1160 batches, 580000 trades so far
+17:05:28 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1170 batches, 585000 trades so far
+17:05:30 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1180 batches, 590000 trades so far
+17:05:32 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1190 batches, 595000 trades so far
+17:05:34 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1200 batches, 600000 trades so far
+17:05:36 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1210 batches, 605000 trades so far
+17:05:38 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1220 batches, 610000 trades so far
+17:05:40 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1230 batches, 615000 trades so far
+17:05:42 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1240 batches, 620000 trades so far
+17:05:44 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1250 batches, 625000 trades so far
+17:05:46 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1260 batches, 630000 trades so far
+17:05:48 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1270 batches, 635000 trades so far
+17:05:50 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1280 batches, 640000 trades so far
+17:05:52 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1290 batches, 645000 trades so far
+17:05:54 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1300 batches, 650000 trades so far
+17:05:56 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1310 batches, 655000 trades so far
+17:05:58 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1320 batches, 660000 trades so far
+17:06:00 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1330 batches, 665000 trades so far
+17:06:02 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1340 batches, 670000 trades so far
+17:06:04 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1350 batches, 675000 trades so far
+17:06:07 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1360 batches, 680000 trades so far
+17:06:09 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1370 batches, 685000 trades so far
+17:06:11 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1380 batches, 690000 trades so far
+17:06:13 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1390 batches, 695000 trades so far
+17:06:15 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1400 batches, 700000 trades so far
+17:06:17 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1410 batches, 705000 trades so far
+17:06:19 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1420 batches, 710000 trades so far
+17:06:21 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1430 batches, 715000 trades so far
+17:06:23 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1440 batches, 720000 trades so far
+17:06:25 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1450 batches, 725000 trades so far
+17:06:27 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1460 batches, 730000 trades so far
+17:06:29 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1470 batches, 735000 trades so far
+17:06:31 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1480 batches, 740000 trades so far
+17:06:34 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1490 batches, 745000 trades so far
+17:06:36 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1500 batches, 750000 trades so far
+17:06:38 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1510 batches, 755000 trades so far
+17:06:40 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1520 batches, 760000 trades so far
+17:06:41 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1530 batches, 765000 trades so far
+17:06:44 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1540 batches, 770000 trades so far
+17:06:46 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1550 batches, 775000 trades so far
+17:06:48 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1560 batches, 780000 trades so far
+17:06:50 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1570 batches, 785000 trades so far
+17:06:51 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1580 batches, 790000 trades so far
+17:06:53 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1590 batches, 795000 trades so far
+17:06:55 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1600 batches, 800000 trades so far
+17:06:57 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1610 batches, 805000 trades so far
+17:06:59 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1620 batches, 810000 trades so far
+17:07:00 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1630 batches, 815000 trades so far
+17:07:03 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1640 batches, 820000 trades so far
+17:07:04 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1650 batches, 825000 trades so far
+17:07:06 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1660 batches, 830000 trades so far
+17:07:08 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1670 batches, 835000 trades so far
+17:07:10 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1680 batches, 840000 trades so far
+17:07:12 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1690 batches, 845000 trades so far
+17:07:14 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1700 batches, 850000 trades so far
+17:07:16 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1710 batches, 855000 trades so far
+17:07:18 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1720 batches, 860000 trades so far
+17:07:20 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1730 batches, 865000 trades so far
+17:07:22 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1740 batches, 870000 trades so far
+17:07:24 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1750 batches, 875000 trades so far
+17:07:26 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1760 batches, 880000 trades so far
+17:07:28 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1770 batches, 885000 trades so far
+17:07:30 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1780 batches, 890000 trades so far
+17:07:32 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1790 batches, 895000 trades so far
+17:07:34 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1800 batches, 900000 trades so far
+17:07:36 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1810 batches, 905000 trades so far
+17:07:38 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1820 batches, 910000 trades so far
+17:07:40 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1830 batches, 915000 trades so far
+17:07:43 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1840 batches, 920000 trades so far
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=1 | total_trades=500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=11 | total_trades=5,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=21 | total_trades=10,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=31 | total_trades=15,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=41 | total_trades=20,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=51 | total_trades=25,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=61 | total_trades=30,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=71 | total_trades=35,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=81 | total_trades=40,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=91 | total_trades=45,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=101 | total_trades=50,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=111 | total_trades=55,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | page=121 | total_trades=60,500 | batch_size=500 | before=1730988421
+[fetch_trades] condition_id=0x05904e19533e1babd5... | Empty batch, end of data
+[fetch_trades] condition_id=0x05904e19533e1babd5... | COMPLETED | total_pages=126 | total_trades=63,000
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1 | total_trades=500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=11 | total_trades=5,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=21 | total_trades=10,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=31 | total_trades=15,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=41 | total_trades=20,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=51 | total_trades=25,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=61 | total_trades=30,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=71 | total_trades=35,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=81 | total_trades=40,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=91 | total_trades=45,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=101 | total_trades=50,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=111 | total_trades=55,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=121 | total_trades=60,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=131 | total_trades=65,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=141 | total_trades=70,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=151 | total_trades=75,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=161 | total_trades=80,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=171 | total_trades=85,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=181 | total_trades=90,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=191 | total_trades=95,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=201 | total_trades=100,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=211 | total_trades=105,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=221 | total_trades=110,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=231 | total_trades=115,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=241 | total_trades=120,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=251 | total_trades=125,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=261 | total_trades=130,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=271 | total_trades=135,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=281 | total_trades=140,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=291 | total_trades=145,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=301 | total_trades=150,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=311 | total_trades=155,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=321 | total_trades=160,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=331 | total_trades=165,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=341 | total_trades=170,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=351 | total_trades=175,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=361 | total_trades=180,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=371 | total_trades=185,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=381 | total_trades=190,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=391 | total_trades=195,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=401 | total_trades=200,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=411 | total_trades=205,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=421 | total_trades=210,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=431 | total_trades=215,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=441 | total_trades=220,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=451 | total_trades=225,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=461 | total_trades=230,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=471 | total_trades=235,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=481 | total_trades=240,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=491 | total_trades=245,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=501 | total_trades=250,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=511 | total_trades=255,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=521 | total_trades=260,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=531 | total_trades=265,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=541 | total_trades=270,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=551 | total_trades=275,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=561 | total_trades=280,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=571 | total_trades=285,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=581 | total_trades=290,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=591 | total_trades=295,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=601 | total_trades=300,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=611 | total_trades=305,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=621 | total_trades=310,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=631 | total_trades=315,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=641 | total_trades=320,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=651 | total_trades=325,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=661 | total_trades=330,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=671 | total_trades=335,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=681 | total_trades=340,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=691 | total_trades=345,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=701 | total_trades=350,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=711 | total_trades=355,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=721 | total_trades=360,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=731 | total_trades=365,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=741 | total_trades=370,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=751 | total_trades=375,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=761 | total_trades=380,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=771 | total_trades=385,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=781 | total_trades=390,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=791 | total_trades=395,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=801 | total_trades=400,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=811 | total_trades=405,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=821 | total_trades=410,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=831 | total_trades=415,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=841 | total_trades=420,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=851 | total_trades=425,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=861 | total_trades=430,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=871 | total_trades=435,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=881 | total_trades=440,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=891 | total_trades=445,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=901 | total_trades=450,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=911 | total_trades=455,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=921 | total_trades=460,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=931 | total_trades=465,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=941 | total_trades=470,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=951 | total_trades=475,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=961 | total_trades=480,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=971 | total_trades=485,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=981 | total_trades=490,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=991 | total_trades=495,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1001 | total_trades=500,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1011 | total_trades=505,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1021 | total_trades=510,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1031 | total_trades=515,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1041 | total_trades=520,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1051 | total_trades=525,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1061 | total_trades=530,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1071 | total_trades=535,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1081 | total_trades=540,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1091 | total_trades=545,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1101 | total_trades=550,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1111 | total_trades=555,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1121 | total_trades=560,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1131 | total_trades=565,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1141 | total_trades=570,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1151 | total_trades=575,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1161 | total_trades=580,500 | batch_size=500 | before=1730919779
+[fetch_trades] condition_id=0x99cae1b83694726803... | page=1171 | total_trades=585,500 | batch_size=500 | before=1730919779
+17:07:45 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1850 batches, 925000 trades so far
+17:07:46 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1860 batches, 930000 trades so far
+17:07:48 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1870 batches, 935000 trades so far
+17:07:51 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1880 batches, 940000 trades so far
+17:07:53 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1890 batches, 945000 trades so far
+17:07:56 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1900 batches, 950000 trades so far
+17:07:58 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1910 batches, 955000 trades so far
+17:08:01 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1920 batches, 960000 trades so far
+17:08:04 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1930 batches, 965000 trades so far
+17:08:06 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1940 batches, 970000 trades so far
+17:08:09 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1950 batches, 975000 trades so far
+17:08:11 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1960 batches, 980000 trades so far
+17:08:14 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1970 batches, 985000 trades so far
+17:08:16 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1980 batches, 990000 trades so far
+17:08:19 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 1990 batches, 995000 trades so far
+17:08:22 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2000 batches, 1000000 trades so far
+17:08:24 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2010 batches, 1005000 trades so far
+17:08:27 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2020 batches, 1010000 trades so far
+17:08:30 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2030 batches, 1015000 trades so far
+17:08:33 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2040 batches, 1020000 trades so far
+17:08:36 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2050 batches, 1025000 trades so far
+17:08:39 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2060 batches, 1030000 trades so far
+17:08:42 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2070 batches, 1035000 trades so far
+17:08:45 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2080 batches, 1040000 trades so far
+17:08:47 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2090 batches, 1045000 trades so far
+17:08:50 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2100 batches, 1050000 trades so far
+17:08:53 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2110 batches, 1055000 trades so far
+17:08:56 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2120 batches, 1060000 trades so far
+17:08:59 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2130 batches, 1065000 trades so far
+17:09:02 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2140 batches, 1070000 trades so far
+17:09:05 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2150 batches, 1075000 trades so far
+17:09:08 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2160 batches, 1080000 trades so far
+17:09:10 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2170 batches, 1085000 trades so far
+17:09:13 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2180 batches, 1090000 trades so far
+17:09:16 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2190 batches, 1095000 trades so far
+17:09:19 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2200 batches, 1100000 trades so far
+17:09:21 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2210 batches, 1105000 trades so far
+17:09:24 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2220 batches, 1110000 trades so far
+17:09:27 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2230 batches, 1115000 trades so far
+17:09:30 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2240 batches, 1120000 trades so far
+17:09:33 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2250 batches, 1125000 trades so far
+17:09:35 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2260 batches, 1130000 trades so far
+17:09:38 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2270 batches, 1135000 trades so far
+17:09:41 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2280 batches, 1140000 trades so far
+17:09:44 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2290 batches, 1145000 trades so far
+17:09:46 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2300 batches, 1150000 trades so far
+17:09:49 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2310 batches, 1155000 trades so far
+17:09:52 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2320 batches, 1160000 trades so far
+17:09:55 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2330 batches, 1165000 trades so far
+17:09:58 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2340 batches, 1170000 trades so far
+17:10:01 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2350 batches, 1175000 trades so far
+17:10:04 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2360 batches, 1180000 trades so far
+17:10:07 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2370 batches, 1185000 trades so far
+17:10:09 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2380 batches, 1190000 trades so far
+17:10:13 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2390 batches, 1195000 trades so far
+17:10:16 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2400 batches, 1200000 trades so far
+17:10:20 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2410 batches, 1205000 trades so far
+17:10:24 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2420 batches, 1210000 trades so far
+17:10:27 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2430 batches, 1215000 trades so far
+17:10:34 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2440 batches, 1220000 trades so far
+17:10:39 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2450 batches, 1225000 trades so far
+17:10:42 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2460 batches, 1230000 trades so far
+17:10:46 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2470 batches, 1235000 trades so far
+17:10:49 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2480 batches, 1240000 trades so far
+17:10:52 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2490 batches, 1245000 trades so far
+17:10:55 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2500 batches, 1250000 trades so far
+17:10:58 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2510 batches, 1255000 trades so far
+17:11:01 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2520 batches, 1260000 trades so far
+17:11:04 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2530 batches, 1265000 trades so far
+17:11:07 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2540 batches, 1270000 trades so far
+17:11:10 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2550 batches, 1275000 trades so far
+17:11:13 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2560 batches, 1280000 trades so far
+17:11:16 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2570 batches, 1285000 trades so far
+17:11:19 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2580 batches, 1290000 trades so far
+17:11:22 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2590 batches, 1295000 trades so far
+17:11:25 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2600 batches, 1300000 trades so far
+17:11:29 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2610 batches, 1305000 trades so far
+17:11:31 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2620 batches, 1310000 trades so far
+17:11:34 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2630 batches, 1315000 trades so far
+17:11:36 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2640 batches, 1320000 trades so far
+17:11:39 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2650 batches, 1325000 trades so far
+17:11:42 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2660 batches, 1330000 trades so far
+17:11:45 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2670 batches, 1335000 trades so far
+17:11:48 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2680 batches, 1340000 trades so far
+17:11:51 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2690 batches, 1345000 trades so far
+17:11:54 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2700 batches, 1350000 trades so far
+17:11:57 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2710 batches, 1355000 trades so far
+17:12:00 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2720 batches, 1360000 trades so far
+17:12:04 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2730 batches, 1365000 trades so far
+17:12:07 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2740 batches, 1370000 trades so far
+17:12:10 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2750 batches, 1375000 trades so far
+17:12:15 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2760 batches, 1380000 trades so far
+17:12:19 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2770 batches, 1385000 trades so far
+17:12:22 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2780 batches, 1390000 trades so far
+17:12:27 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2790 batches, 1395000 trades so far
+17:12:30 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2800 batches, 1400000 trades so far
+17:12:33 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2810 batches, 1405000 trades so far
+17:12:37 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2820 batches, 1410000 trades so far
+17:12:41 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2830 batches, 1415000 trades so far
+17:12:45 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2840 batches, 1420000 trades so far
+17:12:47 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2850 batches, 1425000 trades so far
+17:12:50 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2860 batches, 1430000 trades so far
+17:12:53 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2870 batches, 1435000 trades so far
+17:12:56 | INFO | nevada-us-senate-election-winner: market will-a-republican-win-nevada-us-senate-election - processed 2880 batches, 1440000 trades so far
+17:12:57 | ERROR | nevada-us-senate-election-winner: error during batch iteration for market will-a-republican-win-nevada-us-senate-election: [Errno 28] No space left on device
+17:12:57 | INFO | nevada-us-senate-election-winner: [2/3] fetching trades for market will-a-candidate-from-another-party-win-nevada-us-senate-election
+17:12:58 | ERROR | nevada-us-senate-election-winner: error during batch iteration for market will-a-candidate-from-another-party-win-nevada-us-senate-election: [Errno 28] No space left on device: 'data/nevada-us-senate-election-winner/trades/will-a-candidate-from-another-party-win-nevada-us-senate-election_trades.csv'
+17:12:58 | INFO | nevada-us-senate-election-winner: wrote per-market trade CSVs to data/nevada-us-senate-election-winner/trades
